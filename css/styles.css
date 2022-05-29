@@ -44,10 +44,12 @@ a {
     color: white;
     justify-content: center;
     gap: 30px;
+    padding-bottom: 20px;
 }
 .right img {
     height: 300px;
     width: 500px;
+    border-radius: 20px;
 }
 
 .main-title {
@@ -111,9 +113,6 @@ a {
     height: 200px;
     border-radius: 10px;
 }
-/* * {
-    border: 2px solid red
-} */
 
 .section-3 {
     margin-bottom: 20px;
@@ -138,3 +137,36 @@ a {
     font-weight: bold;
 }
 
+
+.section-4 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882f6;
+    color: white;
+    gap: 50px;
+    padding: 50px 200px;
+    border-radius: 20px;
+
+}
+
+.action {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.s4-sign-up {
+    padding: 5px 10px;
+    color: white;
+    background-color: #3882f6;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
