@@ -92,6 +92,8 @@ a {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
 }
 .container {
     display: flex;
@@ -109,5 +111,30 @@ a {
     height: 200px;
     border-radius: 10px;
 }
+/* * {
+    border: 2px solid red
+} */
 
+.section-3 {
+    margin-bottom: 20px;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #e5e7eb;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding: 100px 200px;
+}
+
+.quote {
+    font-size: 25px;
+    font-style: italic;
+    margin: 0px 40px;
+
+}
+.author {
+    font-size: 20px;
+    font-weight: bold;
+}
 
